@@ -13,7 +13,7 @@ app.use(express.json())
 app.use("/auth", authRouter)
 
 app.get('/', (req, res, next) => {
-    res.send('Hello from EXPRESS SERVER');
+    res.send('SALAM MAKSAT');
 })
 
 const start = async () => {
